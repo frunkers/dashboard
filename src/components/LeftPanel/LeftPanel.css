@@ -1,0 +1,55 @@
+.left-panel {
+	font-family: "Product Sans", sans-serif;
+	background: var(--color-bg);
+	padding: 0 30px;
+}
+
+.left-panel__user {
+	display: flex;
+	align-items: center;
+}
+
+.left-panel__avatar-image {
+	border-radius: 50%;
+}
+
+.left-panel__data-user {
+	margin-left: 24px;
+}
+
+.left-panel__name-user {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.left-panel__date-join {
+	font-size: 14px;
+	color: #ACADB1;
+}
+
+.left-panel__activity {
+	margin-top: 60px;
+}
+
+.left-panel__activity-offer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left-panel__activity-title {
+	color: #4C6072;
+	font-size: 14px;
+}
+
+.left-panel__activity-total {
+	font-family: "Tomorrow", sans-serif;
+	color: #333333;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.left-panel__activity-graph {
+	margin-top: 18px;
+	width: 100%;
+}

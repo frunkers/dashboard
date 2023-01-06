@@ -1,0 +1,15 @@
+#wrapper {
+	height: 990px;
+	max-width: max-content;
+	margin: 0 auto;
+	display: flex;
+	overflow: hidden;
+}
+
+[class*="__container"] {
+	height: 900px;
+	position: relative;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+}
